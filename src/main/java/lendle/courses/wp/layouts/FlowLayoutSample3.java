@@ -40,7 +40,7 @@ public class FlowLayoutSample3 {
             {
                 int count=this.getComponentCount();
                 if(count>0){
-                    int total=count*this.getComponentCount(0).getPreferredSize.width;
+                    int total=count*this.getComponentCount(0).getPreferredSize().width;
                     int row=(int)Math.ceil(total/500);
                     return new Dimension(500,this.getComponentCount(0).getPreferredSize().height*row+20*(row));
                 }
